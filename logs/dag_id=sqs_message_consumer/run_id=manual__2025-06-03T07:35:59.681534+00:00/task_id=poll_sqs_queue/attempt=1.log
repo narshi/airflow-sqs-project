@@ -1,0 +1,23 @@
+{"timestamp":"2025-06-03T07:36:00.372129","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-03T07:36:00.372672","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/consumer_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-03T07:36:00.499579","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-03T07:36:00.523706","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-03T07:36:00.523911","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-06-03T07:36:00.777851","level":"info","event":"SqsSensor checking for message on queue: data-processing-queue","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
+{"timestamp":"2025-06-03T07:36:02.776849","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-03T07:36:33.132163","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-03T07:36:33.132742","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/consumer_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-03T07:36:33.270856","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-03T07:36:33.277906","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-03T07:36:33.278074","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-06-03T07:36:33.550851","level":"info","event":"SqsSensor checking for message on queue: data-processing-queue","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
+{"timestamp":"2025-06-03T07:36:35.655705","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2025-06-03T07:37:06.042087","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-03T07:37:06.042657","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/consumer_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-03T07:37:06.171486","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-06-03T07:37:06.177958","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-06-03T07:37:06.178126","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-06-03T07:37:06.439389","level":"info","event":"SqsSensor checking for message on queue: data-processing-queue","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
+{"timestamp":"2025-06-03T07:37:07.612661","level":"info","event":"Received 1 messages","logger":"airflow.providers.amazon.aws.utils.sqs"}
+{"timestamp":"2025-06-03T07:37:07.612855","level":"info","event":"Deleting 1 messages","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
+{"timestamp":"2025-06-03T07:37:07.919244","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
