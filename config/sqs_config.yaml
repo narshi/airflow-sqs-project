@@ -1,0 +1,8 @@
+queue_name: data-processing-queue
+region: eu-north-1
+aws_access_key_id: AKIATQTFBZJHIAUCOWFK
+aws_secret_access_key: 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
+delay_seconds: 0
+visibility_timeout: 30
+max_message_size: 262144
+message_retention_period: 345600
