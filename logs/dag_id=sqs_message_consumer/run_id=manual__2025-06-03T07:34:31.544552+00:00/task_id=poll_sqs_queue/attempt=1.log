@@ -1,9 +1,0 @@
-{"timestamp":"2025-06-03T07:34:32.645828","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
-{"timestamp":"2025-06-03T07:34:32.646724","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/consumer_dag.py","logger":"airflow.models.dagbag.DagBag"}
-{"timestamp":"2025-06-03T07:34:32.750551","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
-{"timestamp":"2025-06-03T07:34:32.768433","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
-{"timestamp":"2025-06-03T07:34:32.768582","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
-{"timestamp":"2025-06-03T07:34:33.000660","level":"info","event":"SqsSensor checking for message on queue: data-processing-queue","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
-{"timestamp":"2025-06-03T07:34:34.207642","level":"info","event":"Received 5 messages","logger":"airflow.providers.amazon.aws.utils.sqs"}
-{"timestamp":"2025-06-03T07:34:34.208066","level":"info","event":"Deleting 5 messages","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
-{"timestamp":"2025-06-03T07:34:34.511511","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.sqs.SqsSensor"}
